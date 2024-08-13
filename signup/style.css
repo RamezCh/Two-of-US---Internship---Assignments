@@ -21,6 +21,7 @@ body {
   max-width: 1200px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .left-side,
@@ -50,6 +51,7 @@ h2 {
 
 h1 {
   color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -67,15 +69,15 @@ h2 {
 
 .icon {
   position: absolute;
-  left: 0px;
-  top: 67%;
+  left: 0;
+  top: 64%;
   transform: translateY(-50%);
   width: 40px;
-  height: 40px;
+  height: 48px;
   border: none;
   padding: 5px;
   box-shadow: none;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px 0 0 5px;
 }
 
 .sign-in-btn {
@@ -83,7 +85,8 @@ h2 {
   padding: 10px;
   margin-top: 20px;
   border: none;
-  height: 40px;
+  height: 50px;
+  color: white;
   cursor: pointer;
   text-align: center;
 }
@@ -135,6 +138,8 @@ label > img {
   cursor: pointer;
   border: none;
   border-radius: 5px;
+  color: white;
+  padding: 15px;
 }
 
 .input-container {
