@@ -17,8 +17,52 @@ body {
   justify-content: center;
   align-items: center;
   width: 70%;
-  gap: 10%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  padding: 40px;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  padding: 50px;
+}
+
+.left-side {
+  background: linear-gradient(90deg, rgb(255, 208, 78), rgb(222, 134, 8));
+}
+
+.right-side {
+  background-color: white;
+}
+
+.icon {
+}
+
+.sign-in-btn {
+}
+
+.social-media-btn {
+}
+
+.facebook {
+  background-color: rgb(57, 89, 148);
+}
+
+.facebook .icon {
+  background-color: rgb(51, 78, 145);
+}
+
+label > img {
+  width: 20px;
+}
+
+.input-container > input,
+.sign-up-btn {
+  margin-top: 20px;
+  padding: 10px;
 }
