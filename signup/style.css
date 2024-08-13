@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: royalblue;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 70%;
   gap: 10%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 40px;
 }
